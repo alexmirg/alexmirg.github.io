@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+body {
+    color: $textColor;
+}
+.page-wrapper {
+    background: $bgPrimaryColor;
+}
+p {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: $textColor;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.d-none {
+    display: none!important;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: $fieldPlaceholderColor;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $fieldPlaceholderColor;
+}
+  
+::placeholder {
+    font-family: 'Lato', sans-serif;
+    color: $fieldPlaceholderColor;
+    opacity: 0.5;
+}
+
+img {
+    vertical-align: middle;
+}

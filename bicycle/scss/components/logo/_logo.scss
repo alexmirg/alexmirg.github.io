@@ -1,0 +1,27 @@
+
+.logo--lg {
+    display: none;
+}
+
+.logo--mb img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.logo--mb {
+    display: block;
+    width: 60px;
+    margin: 0 15px 15px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logo--lg {
+        display: block;
+    }
+    
+    .logo--mb {
+        display: none;
+    }
+}
+

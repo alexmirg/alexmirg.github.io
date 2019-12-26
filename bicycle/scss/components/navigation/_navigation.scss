@@ -1,0 +1,98 @@
+.page-nav {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    display: none;
+    transition: all 0.2s;
+}
+
+.page-nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-nav__link {
+    display: inline-block;
+    color: $navLinkColor;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 1em 2em;
+}
+
+.nav-toggler {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 35px;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.nav-toggler:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.nav-toggler span {
+    display: block;
+    background: $brandColor;
+    width: 100%;
+    height: 3px;
+    margin: 6px 0;
+    border-radius: 3px;
+}
+
+/* Begin: These classes are used with JS; */
+.nav-toggler--open span {
+    background: $headingColor;
+}
+
+.nav--mobile {
+    display: block;
+}
+
+.header-nav--opened {
+    background: $whiteColor;
+}
+/* End: These classes are used with JS; */
+
+@media screen and (min-width: 768px) {
+    .page-nav {
+        position: relative;
+        width: auto;
+        height: auto;
+        background: transparent;
+        display: block;
+    }
+    .nav-toggler {
+        display: none;
+    }
+    .page-nav__list {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .page-nav__item {
+        position: relative;
+    }
+
+    .logo-lg {
+        display: block;
+    }
+    .logo-mb {
+        display: none;
+    }
+
+    .page-nav__item:after {
+        content: '.';
+        font-size: 2rem;
+        color: transparent;
+    }
+    .page-nav__item--dotted:after {
+        color: $navLinkColor;
+    }
+}
+

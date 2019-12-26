@@ -1,0 +1,47 @@
+.review-item {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.review-item__title {
+    font-size: 1.8rem;
+    margin-bottom: 1.4em;
+}
+.review-item__title strong {
+    margin-right: .5em;
+    color: $headingColor;
+}
+
+.review-item__content p {
+    font-size: 2.4rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.review-slider .slick-slide:focus {
+    outline: none;
+}
+
+.review-slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.review-slider .slick-dots li {
+    margin: 0 4px;
+}
+.review-slider .slick-dots button {
+    width: 11px;
+    height: 11px;
+    color: transparent;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid $dotsColor;
+    border-radius: 50%;
+    display: block; 
+    outline: none;
+    font-size: 0;
+}
+.review-slider .slick-dots li.slick-active button {
+    background: $dotsColor;
+}

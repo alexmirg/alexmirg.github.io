@@ -1,0 +1,20 @@
+.page-cta {
+    background: $bgSecondaryColor;
+    padding: 75px 15px;
+    text-align: center;
+}
+.btn-shop {
+    color: $whiteColor;
+    border: 1px solid $whiteColor;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1.4em 3.5em;
+    transition: all .2s;
+}
+
+.btn-shop:hover {
+    text-decoration: none;
+    background: $whiteColor;
+    color: $bgSecondaryColor;
+}

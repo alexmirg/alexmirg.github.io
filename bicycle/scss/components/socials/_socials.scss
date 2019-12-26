@@ -1,0 +1,32 @@
+.socials-item {
+    display: inline-block;
+    margin: 8px;
+}
+
+.socials-item__link {
+    display: block;
+    width: 35px;
+    height: 34px;
+}
+.socials-item__link:hover .socials-item__icon {
+    filter: saturate(1.5);
+}
+.socials-item__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.i-twitter {
+    background: url('../img/icons/twitter.png');
+}
+
+.i-facebook {
+    background: url('../img/icons/facebook.png');
+}
+
+.i-pinterest {
+    background: url('../img/icons/pinterest.png');
+}
