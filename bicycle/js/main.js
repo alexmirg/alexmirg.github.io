@@ -1,5 +1,6 @@
 jQuery( function($) {
-
+    
+    var $reviewSlider  = $('.review-slider');
     var $headerElem    = $('.js-header');
     var $navToggler    = $('.js-nav-toggler');
     var $nav           = $('.js-nav');
@@ -52,4 +53,12 @@ jQuery( function($) {
             hideMobileNavigation();
         };
     });
+
+    $reviewSlider.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+    });
+
 });
