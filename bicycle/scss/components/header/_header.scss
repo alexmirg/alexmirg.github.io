@@ -1,0 +1,21 @@
+.page-header {
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+    z-index: 200;
+    background: transparent;
+    transition: all .15s;
+}
+.page-header.fixed-header {
+    padding-top: 15px;
+    background: $whiteColor;
+}
+
+@media screen and (min-width: 768px) {
+    .page-header {
+        padding-top: 35px;
+    }
+    .page-header.fixed-header {
+        padding: 5px 0;
+    }
+}
