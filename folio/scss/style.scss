@@ -1,4 +1,8 @@
 @import 'vendors/reset';
 
 @import 'base/colors';
+@import 'base/breakpoints';
+@import 'base/grid';
+@import 'base/base';
 
+@import 'components/header/header';
