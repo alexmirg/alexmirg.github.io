@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Oleksii Rohochyi">
     <title>Folio - one page psd theme.</title>
-    
+
     <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans:300,300i,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans:300,300i,400,600,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 
     <!-- Favicon -->
@@ -19,17 +21,18 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
 </head>
+
 <body>
     <div class="page-wrapper">
         <!-- Header -->
         <header class="page-header">
             <div class="container">
-                    <div class="header__overlay"></div>
-                    <div class="header__content">
+                <div class="header__overlay"></div>
+                <div class="header__content">
                     <h1 class="header__slogan">
-                        .Folio<br/>
-                        One page<br/>
-                        PSD theme
+                        .Folio
+                        <br/> One page
+                        <br/> PSD theme
                         <span class="header__slogan--small">Simple, clear, minimal portfolio template</span>
                     </h1>
                 </div>
@@ -40,36 +43,233 @@
         <div class="menu">
             <div class="container">
                 <div class="menu__content menu__content--fix-aligning">
-                        <div class="menu__col">
-                            <div class="nav-toggler">
-                                    <span class="nav-toggler__item"></span>
-                                    <span class="nav-toggler__item"></span>
-                                    <span class="nav-toggler__item"></span>
-                                </div>
-                                
-                                <a href="#" class="logo">.folio</a>
+                    <div class="menu__col">
+                        <div class="nav-toggler">
+                            <span class="nav-toggler__item"></span>
+                            <span class="nav-toggler__item"></span>
+                            <span class="nav-toggler__item"></span>
                         </div>
-                        <div class="menu__col nav__wrapper">
-                            <nav class="nav">
-                                    <ul class="nav__list">
-                                        <li class="nav__Item"><a href="#" class="nav__link">Work</a></li>
-                                        <li class="nav__Item"><a href="#" class="nav__link">News</a></li>
-                                        <li class="nav__Item"><a href="#" class="nav__link">Bio</a></li>
-                                        <li class="nav__Item"><a href="#" class="nav__link">Contact</a></li>
-                                    </ul>
-                                </nav>
-                                
-                                <ul class="socials">
-                                    <li class="socials__item"><a href="#" class="socials__link"><i class="socials__icon icon-linkedin"></i></a></li>
-                                    <li class="socials__item"><a href="#" class="socials__link"><i class="socials__icon icon-facebook"></i></a></li>
-                                    <li class="socials__item"><a href="#" class="socials__link"><i class="socials__icon icon-flickr"></i></a></li>
-                                    <li class="socials__item"><a href="#" class="socials__link"><i class="socials__icon icon-twitter"></i></a></li>
-                                </ul>
-                        </div>
+
+                        <a href="#" class="logo">.folio</a>
+                    </div>
+                    <div class="menu__col nav__wrapper">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__Item">
+                                    <a href="#" class="nav__link">Work</a>
+                                </li>
+                                <li class="nav__Item">
+                                    <a href="#" class="nav__link">News</a>
+                                </li>
+                                <li class="nav__Item">
+                                    <a href="#" class="nav__link">Bio</a>
+                                </li>
+                                <li class="nav__Item">
+                                    <a href="#" class="nav__link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <i class="socials__icon icon-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <i class="socials__icon icon-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <i class="socials__icon icon-flickr"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <i class="socials__icon icon-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div> 
+            </div>
         </div>
+        
         <!-- Section Portfolio -->
+        <div class="page-portfolio">
+            <div class="container">
+
+                <div class="page__header">
+                    <h2 class="page__title">Portfolio</h2>
+                    <h3 class="page__subtitle">Glamour fashion personal street portrait</h3>
+                </div>
+
+                <div class="gallery">
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image1.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image6.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image1.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image6.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image9.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image7.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image8.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item -->
+                    <div class="gallery-item">
+                        <img src="img/gallery/image10.jpg" class="gallery-item__image" alt="Gallery Image">
+                        <div class="gallery-item__content">
+                            <a href="#zoom" class="gallery-item__link"></a>
+                            <a href="#polaroid" class="gallery-item__nav-link">
+                                <img src="img/icons/polaroid.png" alt="">
+                            </a>
+                            <a href="#link" class="gallery-item__nav-link">
+                                <img src="img/icons/link.png" alt="">
+                            </a>
+                            <a href="#info" class="gallery-item__nav-link">
+                                <img src="img/icons/info.png" alt="">
+                            </a>
+                            <a href="#like" class="gallery-item__nav-link">
+                                <img src="img/icons/like.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- </container> -->
+        </div>
+
         <!-- Section Testimonial -->
         <!-- Section News -->
         <!-- Section Sponsor -->
@@ -81,4 +281,5 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
 </body>
+
 </html>

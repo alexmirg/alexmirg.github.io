@@ -1,0 +1,21 @@
+.page__header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4.8rem;
+    margin-bottom: 50px;
+}
+
+.page__title {
+    position: relative;
+    font-size: 1em;
+}
+
+.page__title:after {
+    content: '/';
+    margin-left: .2em;
+}
+
+.page__subtitle {
+    font-size: .5em;
+}
