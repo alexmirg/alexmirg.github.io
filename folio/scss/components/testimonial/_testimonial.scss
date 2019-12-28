@@ -1,0 +1,70 @@
+$quoteSymbolHeight: 21px;
+
+.page-testimonial {
+    position: relative;
+    padding: 100px 0 40px;
+    background: $testimonialColor url('../img/testimonial_bg.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.testimonial__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6rem;
+}
+
+.testimonial__quote {
+    position: relative;
+    padding: 0 40px;
+    margin-bottom: 30px + $quoteSymbolHeight;
+    font-size: 1em;
+    text-align: center;
+}
+
+.testimonial__quote:before,
+.testimonial__quote:after, {
+    content: '';
+    display: block;
+    background: url('../img/icons/quote_symbol.png') no-repeat center center;
+    width: 26px;
+    height: $quoteSymbolHeight;
+    position: absolute;
+}
+
+.testimonial__quote:before {
+    top: -$quoteSymbolHeight;
+    left: 0;
+}
+
+.testimonial__quote:after {
+    bottom: -$quoteSymbolHeight;
+    right: 0;
+    transform: scale(-1, 1);
+}
+
+.testimonial__author {
+    position: relative;
+    margin-right: 1em;
+    align-self: flex-end;
+    font-size: .6em;
+}
+
+.testimonial__author:before,
+.testimonial__author:after {
+    content: '-';
+}
+
+@media screen and (min-width: $sm) {
+    .testimonial__content {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: $md) {
+    .testimonial__content {
+        font-size: 3.6rem;
+    }
+}
