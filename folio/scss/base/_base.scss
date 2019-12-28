@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: $whiteColor;
+}
+
+a {
+    color: $whiteColor;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+ text-decoration: underline;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.d-none {
+    display: none!important;
+}
+
+h4 {
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.4;
+}

@@ -1,0 +1,35 @@
+.page-header {
+    position: relative;
+    height: 50vh;
+    min-height: 280px;
+    background: $headingColor url('../img/header_bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.header__content {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__slogan {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: .8;
+}
+
+.header__slogan--small {
+    display: block;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: $md) {
+    .header__slogan {
+        font-size: 9rem;
+    }
+    .header__slogan--small {
+        font-size: 3.6rem;
+    }
+}

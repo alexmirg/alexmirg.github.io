@@ -1,0 +1,44 @@
+.menu {
+    background: $headingColor;
+}
+.menu__col {
+    display: flex;
+    align-items: center;
+}
+
+.nav__wrapper {
+    display: none;
+}    
+.menu__content {
+    padding: 28px 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu__content--fix-aligning {
+    .nav {
+        margin-bottom: -4px;
+    }
+    .logo {
+        margin-bottom: -8px;
+    }
+    .nav-toggler {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .menu__col {
+        height: 48px;
+    }
+}
+
+@media screen and (min-width: $md) {
+    .nav-toggler {
+        display: none;
+    }
+    .nav__wrapper {
+        display: flex;
+    }    
+}

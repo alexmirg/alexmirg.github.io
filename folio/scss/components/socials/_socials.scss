@@ -1,0 +1,39 @@
+$iconSize: 35px;
+
+.socials {
+    display: flex;
+}
+
+.menu .socials {
+    margin-left: 62px;
+}
+
+.socials__item {
+    margin: 0 7px;
+}
+.socials__link {
+    display: block;
+}
+
+.socials__link:hover,
+.socials__link:focus {
+    .socials__icon {
+        background-color: $brandColor;
+    }
+}
+
+.socials__icon {
+    display: block;
+    width: $iconSize;
+    height: $iconSize;
+    background: $whiteColor;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.icon-facebook { background: url('../img/socials/facebook-icon.png'); }
+.icon-twitter  { background: url('../img/socials/twitter-icon.png'); }
+.icon-flickr   { background: url('../img/socials/flickr-icon.png'); }
+.icon-linkedin { background: url('../img/socials/linkedin-icon.png'); }
