@@ -5,7 +5,11 @@
     "img1 img1"
     "img2 img2"
     "img3 img3"
-    "img4 img4";
+    "img4 img4"
+    "img5 img5"
+    "img6 img6"
+    "img7 img7"
+    "img8 img8";
 }
 
 .gallery-item {
@@ -73,12 +77,36 @@
 .gallery-item:nth-of-type(4) {
     grid-area: img4;
 }
+.gallery-item:nth-of-type(5) {
+    grid-area: img5;
+}
+.gallery-item:nth-of-type(6) {
+    grid-area: img6;
+}
+.gallery-item:nth-of-type(7) {
+    grid-area: img7;
+}
+.gallery-item:nth-of-type(8) {
+    grid-area: img8;
+}
+@media screen and (min-width: $sm) {
+    .gallery {
+        grid-template-areas: 
+        "img1 img1"
+        "img2 img2"
+        "img3 img3"
+        "img4 img4"
+        "img5 img6"
+        "img7 img8";
+    }
+}
 
 @media screen and (min-width: $md) {
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
         "img1 img1 img2 img2"
-        "img3 img3 img4 img4";
+        "img3 img3 img4 img4"
+        "img5 img6 img7 img8";
     }
 }
