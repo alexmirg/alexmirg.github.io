@@ -1,0 +1,21 @@
+.page-sponsor {
+    padding: 80px 0 50px;
+    background: $sponsorColor;
+}
+
+.sponsor-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-list__item {
+    margin: 0 15px 30px;
+}
+
+@media screen and (min-width: $lg) {
+    .sponsor-list {
+        justify-content: space-between;
+    }
+}
