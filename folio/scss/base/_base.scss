@@ -8,5 +8,14 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
     color: $whiteColor;
-    background: red;
+}
+
+a {
+    color: $whiteColor;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+ text-decoration: underline;
 }

@@ -1,0 +1,43 @@
+.nav__list {
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav__link {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: .3em;
+    margin: 0 .25em;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    color: $brandColor;
+}
+
+.nav-toggler {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+.nav-toggler__item {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: $whiteColor;
+}
+
+.nav-toggler__item:nth-of-type(1) {
+    top: 0;
+}
+
+.nav-toggler__item:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-toggler__item:nth-of-type(3) {
+    bottom: 0;
+}
